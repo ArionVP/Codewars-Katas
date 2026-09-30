@@ -1,5 +1,7 @@
 def multiTable(multiplicando):
-    nums = range(1,11)
-    return "\n".join(f"{i} * {multiplicando} = {i * multiplicando}" for i in nums)
+    UNO = 1
+    DIEZ = 10
+    nums = range(UNO, DIEZ + UNO)
+    return "\n".join(f"{multiplicador} * {multiplicando} = {multiplicador * multiplicando}" for multiplicador in nums)
     
 multiTable(6)
