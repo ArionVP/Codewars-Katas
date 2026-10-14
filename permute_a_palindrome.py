@@ -7,7 +7,4 @@ def permute_a_palindrome(input):
         if contador % 2 != 0:
             impar += 1
 
-    if impar <= 1:
-        return True
-    else:
-        return False
+    return impar <= 1
