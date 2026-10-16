@@ -10,3 +10,7 @@ def to_camel_case(texto_base):
         texto_final += palabra.capitalize()
     
     return texto_final
+
+    resultado_1 = to_camel_case("mi_variable_ejemplo")
+    
+    print(resultado_1)

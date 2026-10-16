@@ -8,4 +8,4 @@ All exercises I have done in codewars / WARNING: Low Level
 
 ## Actual KYU
 
-_spectacular 8_
+_spectacular 6_
