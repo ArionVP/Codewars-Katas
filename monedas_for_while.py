@@ -8,13 +8,14 @@
 
 
 def euros(centimos):
-    monedas = [0, 0, 0]
-    monedas[0] = centimos // 5
-    monedas[1] = (centimos % 5) // 2
-    monedas[2] = ((centimos % 5) % 2) // 1
+    lista_monedas = [5, 2, 1]
+    monedas = []
+    
+    for moneda in lista_monedas:
+        monedas.append(centimos // moneda)
+        centimos = centimos % moneda
+    
     return tuple(monedas)
-    
-    
 
 print(euros(8))
 #>>> (1, 1, 1)  # una de 5 cénts, una de 2 cénts y una de 1 cént.
