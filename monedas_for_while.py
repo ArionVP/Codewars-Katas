@@ -1,4 +1,4 @@
-# Define un prodecimiento, euros, que toma como entrada un entero positivo en euros
+# Define un prodecimiento, euros, que toma como entrada un entero positivo en euros  # noqa: EXE002
 # y devuelve el número de monedas de 5 céntimos, de 2 cénts. y de 1 cénts. requeridos 
 # para formar ese valor. El valor retornado debe ser una lista de tres números:
 # el número de monedas de 5 cénts, de 2 cénts. y de 1 cénts. necesarias.
