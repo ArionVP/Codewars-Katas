@@ -34,21 +34,3 @@ matrix =  [[0,1,2],
 #assert esMatrizCuadrada(matrix) is True
 assert esAntisimetrica(matrix) is True
 
-#matrix1 = [[1,0,0,0],
-#           [0,1,0,0],
-#           [0,0,1,0],
-#           [0,0,0,1]]
-
-#assert esMatrizCuadrada(matrix1) is True
-#assert esAntisimetrica(matrix1) is True
-
-#matrix2 = [[1,0,0],
-#           [0,1,0],
-#          [0,0,0]]
-
-#assert esMatrizCuadrada(matrix2) is True
-#assert esAntisimetrica(matrix2) is True
-
-#matrix5 = [[1,0,0,0,0,0,0,0,0]]
-#assert esMatrizCuadrada(matrix5) is True
-#assert esAntisimetrica(matrix5) is True
