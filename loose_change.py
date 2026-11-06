@@ -10,10 +10,10 @@ def loose_change(cents):
     
     return coins
 
-if _name_ = '_main_'
+if __name__ == '__main__':
 
-assert(loose_change(56) == {'Nickels': 1, 'Pennies': 1, 'Dimes': 0, 'Quarters': 2})
-assert(loose_change(0) == {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 0})
-assert(loose_change(100) == {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 4})
-assert(loose_change(-3) == {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 0})
-assert(loose_change(7.9) == {'Nickels': 1, 'Pennies': 2, 'Dimes': 0, 'Quarters': 0})
+    assert(loose_change(56) == {'Nickels': 1, 'Pennies': 1, 'Dimes': 0, 'Quarters': 2})
+    assert(loose_change(0) == {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 0})
+    assert(loose_change(100) == {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 4})
+    assert(loose_change(-3) == {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 0})
+    assert(loose_change(7.9) == {'Nickels': 1, 'Pennies': 2, 'Dimes': 0, 'Quarters': 0})
