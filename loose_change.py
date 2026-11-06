@@ -10,6 +10,8 @@ def loose_change(cents):
     
     return coins
 
+if _name_ = '_main_'
+
 assert(loose_change(56) == {'Nickels': 1, 'Pennies': 1, 'Dimes': 0, 'Quarters': 2})
 assert(loose_change(0) == {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 0})
 assert(loose_change(100) == {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 4})
